@@ -27,7 +27,7 @@ When the HTML form is submitted, the server-side PHP code can upload the file li
 
 **Random Filename**: true/false (default: false) *booleans*
 
-**Return: string** คืนค่ากลับเป็นชื่อไฟล์ที่ upload (File Name) * String filename return*
+**Return: string** คืนค่ากลับเป็นชื่อไฟล์ที่ upload (File Name) *String filename return*
 
 ## How to Install
 
