@@ -2,6 +2,7 @@
 namespace DwThai;
 
 class DwUpload{
+	const VERSION="1.02";
 	public static function dwUpload($f, $path="./img-products/", $rand=false){
 		$f['name']=self::randomName($rand, $f['name']);
 		if(@copy($f['tmp_name'],$path.$f['name'])){
